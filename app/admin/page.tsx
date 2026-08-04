@@ -102,11 +102,12 @@ export default function AdminPage() {
           <h2 className="text-xl font-bold mb-4">All Machines</h2>
           {machines.map(m => (
             <div key={m.id} className="flex justify-between items-center border-b py-2">
-              <div><p className="font-bold">{m.name}</p><p className="text-sm">₹{m.price?.toLocaleString()}</p></div>
+              <div><p className="font-bold">{m.name}</p><p className="text-sm">₹{m.price?.toLocaleString('en-IN')}</p><p className="text-xs">{m.images?.length} Images</p></div>
               <button onClick={() => handleDelete(m.id)} className="bg-red-500 text-white px-3 py-1 rounded">Delete</button>
             </div>
           ))}
         </div>
       </div>
     </div>
-    )
+  )
+&rbrace;
