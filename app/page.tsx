@@ -113,8 +113,7 @@ export default function HomePage() {
           <div className="flex items-center gap-3">
             <img src="/logo.png" className="w-24 h-24 rounded-3xl"/>
             <div>
-              <h1 className="text-2xl font-bold m-0">JD CRUSHER PARTS</h1>
-              <p className="text-[#D4AF37] font-bold m-0 text-xs">New Se Used Tak, Parts Se Service Tak</p>
+              <h1 className="text-2xl font-bold m-0">KS CRUSHER PARTS</h1>
             </div>
           </div>
           
@@ -168,7 +167,7 @@ export default function HomePage() {
       <div className="bg-[#1B365D] text-white p-8">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-[#D4AF37] text-lg mb-3">JD CRUSHER PARTS</h3>
+            <h3 className="text-[#D4AF37] text-lg mb-3">KS CRUSHER PARTS</h3>
           </div>
           <div>
             <h3 className="text-[#D4AF37] text-lg mb-3">Contact Us</h3>
@@ -187,7 +186,7 @@ export default function HomePage() {
           </div>
         </div>
         <div className="text-center mt-8 pt-5 border-t border-[#1a4a8c] text-xs text-gray-400">
-          © 2026 JD CRUSHER PARTS. All Rights Reserved.
+          © 2026 KS CRUSHER PARTS. All Rights Reserved.
         </div>
       </div>
     </div>
