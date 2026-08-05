@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   title: "KSP Crusher Parts - Bhopal",
   description: "Crusher Parts Supplier in Bhopal. Jaw Plates, Conveyor Belt, Crusher Spares. Call/WhatsApp Now",
   verification: {
-    google: "G8VSihHnYZPuBQLeTwQ_bZZzDIR7DtervCnXxsEhgN8" />", // 👈 yaha apna GSC wala code daal do
+    google: "G8VSihHnYZPuBQLeTwQ_bZZzDIR7DtervCnXxsEhgN8", // 👈 yaha apna GSC wala code daal do
   },
 };
 
