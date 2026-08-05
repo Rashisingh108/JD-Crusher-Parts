@@ -173,6 +173,11 @@ export default function HomePage() {
             <h3 className="text-[#D4AF37] text-lg mb-3">Contact Us</h3>
             <p className="text-sm my-1">📍 Address: Industrial Area, Bhopal, MP 462023</p>
             <p className="text-sm my-1">📞 Phone: +91 9893543392</p>
+             <p>
+      📧 Email: <a href="mailto:kuldeep545@gmail.com" style={{color: '#ffcc00'}}>
+        kuldeep545@gmail.com
+      </a>
+    </p>
           </div>
           <div>
             <h3 className="text-[#D4AF37] text-lg mb-3">Quick Links</h3>
