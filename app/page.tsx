@@ -145,7 +145,7 @@ export default function HomePage() {
         <div className="max-w-6xl mx-auto p-5">
           <input type="text" placeholder="🔍 Search: Crusher, Bearing, Motor..." className="w-full p-3 border-2 border-[#1B365D] rounded-lg text-base mb-5 box-border bg-white dark:bg-gray-700 dark:text-white" value={search} onChange={(e) => setSearch(e.target.value)}/>
 
-          {filtered.length === 0? <p className="text-center">Abhi koi machine add nahi hui. Admin se add karo.</p> : (
+          {filtered.length === 0?: 
             <div className="flex flex-col gap-4">
               {filtered.map((item) => (
                 <div key={item.id} onClick={() => setSelectedItem(item)} className="bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 rounded-xl shadow-md cursor-pointer flex flex-row p-3 gap-3">
@@ -167,7 +167,6 @@ export default function HomePage() {
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <h3 className="text-[#D4AF37] text-lg mb-3">JD CRUSHER PARTS</h3>
-            <p className="text-sm leading-6 text-gray-300">New Se Used Tak, Parts Se Service Tak</p>
           </div>
           <div>
             <h3 className="text-[#D4AF37] text-lg mb-3">Contact Us</h3>
