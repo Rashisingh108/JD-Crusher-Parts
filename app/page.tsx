@@ -145,7 +145,9 @@ export default function HomePage() {
         <div className="max-w-6xl mx-auto p-5">
           <input type="text" placeholder="🔍 Search: Crusher, Bearing, Motor..." className="w-full p-3 border-2 border-[#1B365D] rounded-lg text-base mb-5 box-border bg-white dark:bg-gray-700 dark:text-white" value={search} onChange={(e) => setSearch(e.target.value)}/>
 
-          {filtered.length === 0?: 
+          {filtered.length === 0? (
+            <p className="text-center text-gray-500 dark:text-gray-400">No items found.</p>
+          ) : (     
             <div className="flex flex-col gap-4">
               {filtered.map((item) => (
                 <div key={item.id} onClick={() => setSelectedItem(item)} className="bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 rounded-xl shadow-md cursor-pointer flex flex-row p-3 gap-3">
